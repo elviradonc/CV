@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ABOUT ME</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    /* Ensure full viewport width */
+    html, body {
+      width: 100%;
+      overflow-x: hidden;
+    }
+    /* Custom style adjustments */
+    .nav-links a {
+      color: #272A5D;
+      text-decoration: none;
+      padding: 8px 16px;
+      border-radius: 4px;
+      transition: background-color .3s, color .3s;
+    }
+    .nav-links a:hover {
+      background-color: #272A5D;
+      color: white;
+    }
+    .flags {
+      display: center;
+      margin-left: 20px;
+    }
+    .flags img {
+      width: 30px;
+      height: 20px;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+    .nav {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+      }
+      .nav.active {
+        display: flex;
+      }
+      .nav li {
+        margin: 15px 0;
+        text-align: center;
+      }
+    
+  </style>
+</head>
+<body class="bg-gray-100 font-source-sans-pro">
+  <header class="bg-white shadow-md">
+    <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <div class="flags">
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/255px-Flag_of_France.svg.png" alt="Français" title="Français">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/640px-Flag_of_the_United_Kingdom_%281-2%29.svg.png" alt="English" title="English">
+      </div>
+      <a href="https://www.canva.com/design/DAFo-FG20bs/f4MbyhTiv2OGd0EPqma0fw/view?utm_content=DAFo-FG20bs&utm_campaign=designshare&utm_medium=link&utm_source=editor" class="text-3xl font-bold text-[#4d5088]">MY CV</a>
+      <div class="nav-links hidden md:flex">
+        <a href="#">home</a>
+        <a href="#">about me</a>
+        <a href="https://www.canva.com/design/DAFo-FG20bs/f4MbyhTiv2OGd0EPqma0fw/view?utm_content=DAFo-FG20bs&utm_campaign=designshare&utm_medium=link&utm_source=editor">CV</a>
+        <a href="#">skills</a>
+      </div>
+      <div class="md:hidden">
+        <button id="mobile-menu-button" class="text-[#4d5088] focus:outline-none">
+          <i class="text-2xl fas fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+    <nav>
+      <div class="menu-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="nav" id="nav-list">
+        <li><a href="#home">home</a></li>
+        <li><a href="#about">about me</a></li>
+        <li><a href="#services">Experience</a></li>
+        <li><a href="#contact">skills </a></li>
+       
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container mx-auto px-6 py-12">
+    <div class="bg-[#4d5088] bg-opacity-10 rounded-lg overflow-hidden shadow-lg px-6 py-8">
+      <div class="flex justify-between items-center">
+        <div class="w-2/5">
+          <h2 class="text-4xl font-semibold text-[#4d5088] mb-2">Elvira Matas Doncel</h2>
+          <p class="text-gray-600">Throughout my academic career, linguistics and technology have captured my full attention. Although they may seem like two completely different fields, I've found a way of combining my two passions to tackle a current problem.</p>
+          </div>
+        <div class="w-3/5">
+          <img src="https://media.licdn.com/dms/image/D5603AQFTSFqDchgKBw/profile-displayphoto-shrink_800_800/0/1699988173000?e=2147483647&v=beta&t=fFI6uhb6aNfFGzfuskDgJCZaVAF7SZOafvXfKUb-k_4" alt="Doctor image" class="w-full h-auto">
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center py-12">
+      <h1 class="text-5xl font-semibold text-gray-800 mb-6">Elvira Matas Doncel</h1>
+      <p class="text-xl text-gray-600"> AI is my passion, humans my priority </p>
+    </div>
+
+    <div class="bg-[#4d5088] bg-opacity-20 rounded-lg shadow-lg p-6 mb-8">
+      <h3 class="text-lg font-semibold text-center mb-2">My philosophy</h3>
+      <p class="text-gray-600">Artificial intelligence is a field that affects many different sectors and is becoming increasingly integrated into our everyday work and life. Such a wide-ranging technology cannot be designed solely by experts in applied technological sciences, but must also take into account the opinions of artists, humanists and social scientists. Creating an ethical technology that takes into account a wide range of opinions is essential for the development of generative artificial intelligence (GAI) and multimodal models.</p>
+    </div>
+    
+    <div class="text-center py-6">
+      <a href="https://www.linkedin.com/in/elvira-matas-doncel/" class="bg-[#4d5088] text-white font-bold py-3 px-6 rounded-full hover:bg-[#3b3e70] transition-colors duration-300"> Let's talk!</a>
+    </div>
+  </div>
+  
+
+  
+<div class="bg-[#4d5088] bg-opacity-10 py-10">
+  <h2 class="text-4xl font-semibold text-center text-gray-800 mb-10">Hobby</h2>
+    <div class="container mx-auto px-6">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+        
+        <div class="bg-white p-6 rounded-lg shadow">
+         <img class="h-40 w-40 rounded-full mx-auto mb-4" src="https://cdn.icon-icons.com/icons2/2338/PNG/512/sport_icon_142672.png" alt="Sport">
+          <h3 class="text-xl font-semibold mb-2"> Sport</h3>
+          <p class="text-gray-600">As part of an active lifestyle, I regularly take part in sporting activities such as jogging, hiking and swimming. For me, sport is an outlet for channelling my energy. It develops my perseverance, determination and ability to set myself motivating goals.</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow">
+          <img class="h-40 w-40 rounded-full mx-auto mb-4" src="https://cdn.icon-icons.com/icons2/2516/PNG/512/book_icon_150971.png" alt="Lecture">
+          <h3 class="text-xl font-semibold mb-2">Read</h3>
+          <p class="text-gray-600">I'm passionate about literature and spend part of my free time reading novels, essays and biographies. This enriching pastime stimulates my intellectual curiosity and imagination. For me, books are a window onto other cultures and ways of thinking.</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow">
+          <img class="h-40 w-40 rounded-full mx-auto mb-4" src="https://cdn-icons-png.freepik.com/512/0/614.png" alt="Voyager">
+          <h3 class="text-xl font-semibold mb-2">Travel</h3>
+          <p class="text-gray-600">I love discovering new horizons when I travel, whether it's exploring the treasures of my region or setting off on an adventure abroad. Each destination is a unique opportunity to broaden my knowledge and immerse myself in a variety of cultural traditions. With an open mind, I strive to understand the different customs and ways of life I meet.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="container mx-auto px-6 py-10">
+    <h2 class="text-4xl font-semibold text-center text-gray-800 mb-10">education</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+      <!-- Team Member 1 -->
+      <div class="bg-white p-6 rounded-lg shadow">
+        <img class="h-40 w-40 rounded-full mx-auto mb-4" src="https://www.us.es/sites/default/files/2019-05/marca-US-bn.jpg" alt="Université de Séville">
+        <h2 class="text-xl font-semibold">Language sciences and modern literature</h2>
+        <p class="text-gray-600">University of Sevilla</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-lg shadow">
+        <img class="h-40 w-40 rounded-full mx-auto mb-4" src="https://campusnumerique.auvergnerhonealpes.fr/app/uploads/2020/06/logo_univ_lyon2.jpg" alt="Lyon2">
+        <h2 class="text-xl font-semibold">University Lyon 2- ERASMUS+ </h2>
+        <p class="text-gray-600">Language sciences and modern literature</p>
+      </div>
+      <!-- Team Member 3 -->
+      <div class="bg-white p-6 rounded-lg shadow">
+        <img class="h-40 w-40 rounded-full mx-auto mb-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIJi96MfDJCgJlpTsBCRUBF7FXHMiQ9sKUmHcQ2tAquQ&s" alt="Unistra">
+        <h2 class="text-xl font-semibold">University of Strasbourg</h2>
+        <p class="text-gray-600">CAWEB EàD</p>
+      </div>
+    </div>
+  </div>
+  
+ 
+
+<div class="container mx-auto px-6 py-10">
+    <h2 class="text-4xl font-semibold text-center text-gray-800 mb-10">expertise</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+        <img src="https://static.thenounproject.com/png/108510-200.png" alt="Net" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="font-semibold text-lg mb-2"> critical analysis</h3>
+          <p class="text-gray-600 text-sm mb-4">Critical analysis of problems. The aim is to automate repetitive tasks and establish a logical and scalable solution.</p>
+          <div class="text-gray-600 text-xs mb-2">Madecontent</div>
+          <div class="text-gray-600 text-xs mb-4">Textual and critical analysis. Research and development Artificial Intelligence </div>
+        </div>
+      </div>
+      
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+        <img src="https://www.shutterstock.com/image-vector/head-robot-icon-vector-illustration-260nw-769234693.jpg" alt="Chatbot" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="font-semibold text-lg mb-2">conversational AI </h3>
+          <p class="text-gray-600 text-sm mb-4">Creation of conversational assistants in the telecommunications and automotive sectors. Chatbot and voicebot (text and voice format)</p>
+          <div class="text-gray-600 text-xs mb-2">Fonvirtual et Aivora</div>
+          <div class="text-gray-600 text-xs mb-4">chatbots, natural language processing (NLP)</div>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+        <img src="https://logowik.com/content/uploads/images/translate1230.jpg" alt="Linguistique" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="font-semibold text-lg mb-2">Linguistics</h3>
+          <p class="text-gray-600 text-sm mb-4">Translation in english-spanish-french, contextual analysis and text correction </p>
+          <div class="text-gray-600 text-xs mb-2">University of Sevilla and University of Strasbourg</div>
+          <div class="text-gray-600 text-xs mb-4">Computational linguist and communication in english, french and spanish </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+
+  <div class="container mx-auto px-6 py-10">
+    <div class="flex justify-center">
+      <div class="bg-white p-8 rounded-lg shadow-lg w-2/3">
+        <h2 class="text-3xl font-semibold text-center text-[#4d5088]">PROJECTS</h2>
+        <div class="text-center mt-4">
+          <span class="text-4xl font-bold text-gray-800">NLU</span>
+          <span class="text-xl text-gray-600">(Natural Language Understanding)</span>
+        </div>
+        <p class="mt-4 text-gray-600">The main aim of NLU is to enable a machine to analyse, interpret and understand the meaning and intention behind sentences and words used in a natural language, such as French, English or any other human language. Applied to the automotive industry at AIVORA</p>
+        
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-white py-6">
+    <div class="container mx-auto px-6 text-center">
+      <div class="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-4">
+        <p class="text-gray-600 text-sm font-semibold">Elvira Matas Doncel</p>
+      </div>
+      <div class="mt-6">
+        <p class="text-gray-600 text-sm font-semibold">&copy; 2024 CAWEB EàD All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('mobile-menu-button').addEventListener('click', function () {
+      const navList = document.getElementById('nav-list');
+      navList.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WORK EXPERIENCE</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    .hero-background {
+      background: url('https://placehold.co/1200x800') center/cover no-repeat;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding: 10px 0;
+    }
+    .nav {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: flex-end;
+    }
+    .nav li {
+      margin: 0 20px;
+    }
+    .nav a {
+      color: #111111;
+      text-decoration: none;
+      font-size: 18px;
+    }
+    .menu-toggle {
+      display: none;
+      flex-direction: column;
+      cursor: pointer;
+    }
+    .bar {
+      width: 25px;
+      height: 3px;
+      background-color: #fff;
+      margin: 4px 0;
+      transition: all 0.3s ease;
+    }
+    @media (max-width: 768px) {
+      .menu-toggle {
+        display: flex;
+      }
+      .nav {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+      }
+      .nav.active {
+        display: flex;
+      }
+      .nav li {
+        margin: 15px 0;
+        text-align: center;
+      }
+    }
+    .flags {
+      display: center;
+      margin-left: 20px;
+    }
+    .flags img {
+      width: 30px;
+      height: 20px;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body class="font-source-sans-pro bg-gray-100">
+  <!-- Header Section -->
+  <header class="bg-white shadow-md">
+    <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="https://www.canva.com/design/DAFo-FG20bs/f4MbyhTiv2OGd0EPqma0fw/view?utm_content=DAFo-FG20bs&utm_campaign=designshare&utm_medium=link&utm_source=edito" class="text-3xl font-bold text-[#4d5088]">MY CV</a>
+      
+      <div class="md:hidden">
+        <button id="mobile-menu-button" class="text-[#4d5088] focus:outline-none">
+          <i class="text-2xl fas fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+    <nav>
+      <div class="menu-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="nav" id="nav-list">
+        <li><a href="#home">home</a></li>
+        <li><a href="#about">about me </a></li>
+        <li><a href="#services">Experience</a></li>
+        <li><a href="#contact">skills </a></li>
+        <div class="flags">
+          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/255px-Flag_of_France.svg.png" alt="Français" title="Français">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/640px-Flag_of_the_United_Kingdom_%281-2%29.svg.png" alt="English" title="English">
+        </div>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero-background py-1">
+    <div class="container mx-auto px-1">
+      <div class="text-white">
+        <img src="https://media.licdn.com/dms/image/D5616AQHHYUMlQfEvFQ/profile-displaybackgroundimage-shrink_350_1400/0/1700068086132?e=1721865600&v=beta&t=UMBavI7hvQLjbvfBujQM5CzMXhZcTxKI3I_1eq2zRpc" alt="Hero Background Image" class="w-full">
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-semibold text-center text-gray-800 mb-12"> Profesional experience</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-lg font-semibold mb-2">AI Research</h3>
+          <p class="text-gray-600">Practical application of NLP and LLM. An in-depth look at the different types of artificial intelligence models and tools currently being developed and their components: programming, models, datasets, applications and development.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-lg font-semibold mb-2">R&D  AI</h3>
+          <p class="text-gray-600">The successful evaluation of emerging AI-based technologies enabled me to select those that matched our needs. Defining key performance indicators was at the heart of my responsibilities, as it enabled us to assess the effectiveness of our initiatives. I ensured that the use of AI complied with ethical regulations. My constant suggestions for improvement helped to optimise our solutions, and the constant updating of guides and procedures ensured that they kept pace with technological developments.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-lg font-semibold mb-2">Computational linguist</h3>
+          <p class="text-gray-600">Combine knowledge of linguistics and computer science to develop systems capable of processing and analysing natural language. Create and enrich lexical databases, annotated corpora, ontologies and other linguistic resources used by NLP systems to acquire knowledge about language.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-[#4d5088] py-20">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-semibold text-center text-white mb-10">Recommendations</h2>
+      <div class="flex justify-center mt-8">
+        <div class="w-full md:w-3/4 lg:w-1/2">
+
+          <div class="bg-white p-6 rounded-lg shadow mb-6">
+            <p class="text-gray-600 mb-4">"Elvira recently graduated with a degree in French Studies, distinguishing himself by his strength in overcoming all obstacles and academic milestones, as well as his willingness to continue training and broaden his horizons, particularly in the new and increasingly present field of Artificial Intelligence. In doing so, he is not only demonstrating his sound professional intuition, but also placing himself at the forefront of this field, opening the doors to a rapidly expanding sector.
+              I wish him every success in his professional endeavours, and I'm sure he'll achieve both his short- and long-term goals."</p>
+            <div class="flex items-center">
+              <img src="https://media.licdn.com/dms/image/D4D03AQGIftyTFrUtog/profile-displayphoto-shrink_100_100/0/1693395880000?e=1721865600&v=beta&t=gzWJJjawUu7lr77WJ3L-SPSpxsN-j4ZRjjbqjv-9qiQ" alt="CARMEN Maqueda" class="rounded-full mr-4">
+              <div>
+                <p class="font-semibold text-[#4d5088]">Carmen Maqueda Galan</p>
+                <p class="text-gray-600 text-sm"> Phonetics and FLE teacher </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-white p-6 rounded-lg shadow mb-6">
+            <p class="text-gray-600 mb-4">"I am pleased to express my highest recommendation to Elvira Matas Doncel, who was my student in French Philology at the University of Seville for two years. During this time, Elvira showed exceptional commitment to her studies and an innate ability to understand and apply complex linguistic concepts.
+              Elvira stood out not only for her ability to master French, but also for her deep interest in the intersection between linguistics and artificial intelligence. Her intellectual curiosity and ability to tackle complex problems make her an exceptional and passionate student."</p>
+            <div class="flex items-center">
+              <img src="https://media.licdn.com/dms/image/C5603AQG7Ubg3orGN-A/profile-displayphoto-shrink_100_100/0/1516902761536?e=1721865600&v=beta&t=VcV7bzfQkIBDNL3aGV-Z07PaEjIq3Om1YWCCo49x3Bc" alt="Christopher" class="rounded-full mr-4">
+              <div>
+                <p class="font-semibold text-[#4d5088]">Christopher Schmidt</p>
+                <p class="text-gray-600 text-sm"> L2 Teacher</p>
+              </div>
+            </div>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow mb-6">
+            <p class="text-gray-600 mb-4">"I teach web programming at the Master Caweb and I'm also Elvira's tutor for her year of apprenticeship. 
+              Elvira has always shown a great interest in my subjects (HTML, CSS and Javascript). She's very attentive and very involved in her work and studies, always looking to expand on the new concepts covered in class, while presenting me with her exercises and solutions."</p>
+            <div class="flex items-center">
+              <img src="https://media.licdn.com/dms/image/C4D03AQHi_IwGuE_V9g/profile-displayphoto-shrink_100_100/0/1516769861292?e=1721865600&v=beta&t=20iaSp8GJaaksNZNjlThkoRqNnpod9kWxKwMMEDc9zk" alt="Eric" class="rounded-full mr-4">
+              <div>
+                <p class="font-semibold text-[#4d5088]">Eric Christoffel.</p>
+                <p class="text-gray-600 text-sm">Teacher HTML CSS JS</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="py-20">
+    <div class="container mx-auto px-6">
+        <h2 class="text-center text-3xl font-semibold text-gray-800 mb-6">Enterprises</h2>
+        <p class="text-center text-lg text-gray-600 mb-8">My work was carried out in these companies.</p>
+        <div class="flex flex-wrap justify-center">
+          <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-6">
+            <div class="text-center">
+              <img src="https://media.licdn.com/dms/image/D4D0BAQEek7H_nZrOBw/company-logo_100_100/0/1709580201487/aivora_solutions_logo?e=1724889600&v=beta&t=6S3ORs1Iy0jEH4MoKOmX4HiluAj5_g3nwEl4Hq4JQ40" alt="aivora" class="block mx-auto mb-4">
+              <h3 class="text-xl font-semibold mb-2">Aivora - Computational Linguist </h3>
+              <p class="text-gray-600">Conversational assistant specialised in the automotive industry, manage 100% of your leads by voice and increase your sales.</p>
+            </div>
+          </div>
+          <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-6">
+            <div class="text-center">
+              <img src="https://media.licdn.com/dms/image/C4D0BAQFe-beM8-3EUg/company-logo_100_100/0/1671784433067/fonvirtual_logo?e=1724889600&v=beta&t=DJ6Ia0agVqde6TdUYmP8K0NPXDg2NLNrmMs2OW2Ki1Y" alt="fonvirtual" class="block mx-auto mb-4">
+              <h3 class="text-xl font-semibold mb-2">Fonvirtual - Research AI</h3>
+              <p class="text-gray-600">Fonvirtual globally offers the most innovative internal and external communication solutions via instant messaging, voice or video for all businesses.</p>
+            </div>
+          </div>
+          <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-6">
+            <div class="text-center">
+              <img src="https://media.licdn.com/dms/image/C4E0BAQFsGmDZT9cV2w/company-logo_100_100/0/1630619276391/madecontent_logo?e=1724889600&v=beta&t=zgEErbu-KKGIdiPLYodNbGEPuhvJvSgEjg1jg9rZv34" alt="madecontent" class="block mx-auto mb-4">
+              <h3 class="text-xl font-semibold mb-2">Madecontent - R&D AI</h3>
+              <p class="text-gray-600"> develop your visibility. Increase your sales sustainably with greater profitability. Multimedia content creation agency.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+
+<section class="bg-[#4d5088] py-12">
+    <div class="container mx-auto px-6">
+      <div class="flex flex-wrap items-center">
+        <div class="w-full md:w-1/2">
+          <h2 class="text-3xl font-semibold text-white mb-3">Language models</h2>
+          <p class="text-gray-200 mb-5">
+            Development of statistical and probabilistic models to represent the regularities and structures of language based on large textual datasets
+          </p>
+          <a href="https://botpress.com/fr/blog/how-does-natural-language-understanding-nlu-work" class="bg-white text-[#4d5088] font-bold py-2 px-4 rounded hover:bg-gray-200 transition-colors duration-300 mr-2">See more</a>
+          <a href="https://www.linkedin.com/in/elvira-matas-doncel/" class="bg-transparent border border-white text-white font-semibold py-2 px-4 rounded hover:bg-white hover:text-[#4d5088] transition-colors duration-300">Contact me</a>
+        </div>
+        <div class="w-full md:w-1/2">
+          <!-- Image or additional content here -->
+          <img src="https://miro.medium.com/v2/resize:fit:1400/1*EfE7hyDVRYRIZRVIJzE5Sw.jpeg" alt="Featured Medical Service" class="rounded-xl shadow-lg">
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Procedure Section -->
+<!-- Procedure Section -->
+<section class="py-12">
+  <div class="container mx-auto px-6">
+    <div class="flex flex-wrap items-start">
+      <!-- First Alternance -->
+      <div class="w-full lg:w-1/2 pr-6 order-last lg:order-first">
+        <img src="https://media.licdn.com/dms/image/C4E0BAQGuhupgIYU_kA/company-logo_200_200/0/1676029651766/agence_press_agrum_logo?e=1724889600&v=beta&t=KqQr4Tnoa8iOlsM2fFjpX_pfjXa21GTnX5roJ8DRgYU" alt="PressAgrum" class="rounded-xl shadow-lg mb-6 lg:mb-0">
+        <div class="mb-12">
+          <h3 class="text-2xl font-semibold text-[#4d5088] mb-3">PressAgrum</h3>
+          <p class="text-gray-600">
+            Press Agrum, a company founded 22 years ago that specialises in visual identity and branding. The two companies share offices, an administrative body and the two teams work together with the same objective. MadeContent's work is closely linked to that of Press Agrum because the two teams work together on a daily basis, sharing the same work tools, the same tasks and cooperating to achieve a good result.
+          </p>
+          <div class="mt-4">
+            <a href="https://www.linkedin.com/company/agence-press-agrum/" class="text-[#4d5088] hover:text-blue-800 transition-colors duration-300">View more →</a>
+          </div>
+        </div>
+      </div>
+      <!-- Second Alternance -->
+      <div class="w-full lg:w-1/2 pl-6 order-first lg:order-last">
+        <img src="https://media.licdn.com/dms/image/C4E0BAQFsGmDZT9cV2w/company-logo_200_200/0/1630619276391/madecontent_logo?e=1724889600&v=beta&t=HtgRAoLCkvWbPaVUqTuuerMKu2nBYgDkPeE-N2ueyiE" alt="MadeContent" class="rounded-xl shadow-lg mb-6 lg:mb-0">
+        <div class="mb-12">
+          <h3 class="text-2xl font-semibold text-[#4d5088] mb-3">MadeContent</h3>
+          <p class="text-gray-600">
+            MadeContent is a digital marketing company founded 4 years ago by Jonathan Luck with Samuel Monpeyssen, president and strategist of Press Agrum, a company specialising in visual identity and branding. With over 15 years' experience in the industry, Jonathan continues to push the boundaries of SEO, driven by his passion for quality content and his desire to improve brand positioning.
+          </p>
+          <div class="mt-4">
+            <a href="https://www.linkedin.com/company/madecontent/" class="text-[#4d5088] hover:text-blue-800 transition-colors duration-300">View more →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  
+
+    <footer class="bg-white py-6">
+      <div class="container mx-auto px-6 text-center">
+        <div class="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-4">
+          <p class="text-gray-600 text-sm font-semibold">Elvira Matas Doncel</p>
+        </div>
+        <div class="mt-6">
+          <p class="text-gray-600 text-sm font-semibold">&copy; 2024 CAWEB EàD All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <script>
+      document.getElementById('mobile-menu-button').addEventListener('click', function () {
+        const navList = document.getElementById('nav-list');
+        navList.classList.toggle('active');
+      });
+    </script>
+  </body>
+  </html>
